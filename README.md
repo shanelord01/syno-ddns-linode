@@ -45,7 +45,9 @@ Hostname: [your DDNS hostname].[your domain]
 Username/Email: [your linode account email address]
 Password/Key: [your linode domain access token]
 </pre>
-7. Click 'OK'
+7. Click 'Test' - you should get status "Normal". If not, check you have a domain set in the A record (ie ddns.your.domain) and that your domain API key from Linode is in the password field correctly.
+</pre>
+8. Click 'OK'
 
 ## Original Reference
 * https://github.com/cpascal/syno-ddns-linode
