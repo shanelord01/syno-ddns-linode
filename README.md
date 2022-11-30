@@ -25,7 +25,7 @@ Access: Domains = Read/Write
 sudo su -
 [input your password if the password is asked]
 </pre>
-3. Add the following contents to /etc.defaults/ddns_provider.conf file.
+3. Add the following contents to /etc.defaults/ddns_provider.conf file. (nano /etc.defaults/ddns_provider.conf)
 <pre>
 [Linode]
         modulepath=/usr/syno/bin/ddns/linode.php
