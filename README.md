@@ -7,7 +7,7 @@ If you're maintaining your domain on Linode, you can use this script to manage D
 ### On Linode
 1. Connect linode.com using your web browser
 2. Log in your account
-3. Add a A record hostname ('Domains' -> [your domain name] -> Add an A/AAAA Record -> cannot be blank or @ -> use any 1.1.1.1 to start -> Save)
+3. Add a A record hostname ('Domains' -> [your domain name] -> Add an A/AAAA Record -> cannot be blank or @ -> use any IP or 1.1.1.1 to start -> Save)
 3. Then Go to 'My profile' -> 'API Tokens'
 4. Click 'Add a Personal Access Token'
 <pre>
