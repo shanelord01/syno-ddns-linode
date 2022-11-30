@@ -7,7 +7,7 @@ If you're maintaining your domain on Linode, you can use this script to manage D
 ### On Linode
 1. Connect linode.com using your web browser
 2. Log in your account
-3. Add a A record hostname ('Domains' -> [your domain name] -> Add an A/AAAA Record -> .... -> Save)
+3. Add a A record hostname ('Domains' -> [your domain name] -> Add an A/AAAA Record -> cannot be blank or @ -> use any 1.1.1.1 to start -> Save)
 3. Then Go to 'My profile' -> 'API Tokens'
 4. Click 'Add a Personal Access Token'
 <pre>
@@ -34,7 +34,7 @@ sudo su -
 4. Download linode.php to /usr/syno/bin/ddns
 <pre>
 cd /usr/syno/bin/ddns
-curl -O https://raw.githubusercontent.com/cpascal/syno-ddns-linode/master/linode.php
+curl -O https://raw.githubusercontent.com/shanelord01/syno-ddns-linode/master/linode.php
 chmod 755 linode.php
 </pre>
 5. Open the DSM Control Panel, External Access, DDNS tab.
@@ -42,10 +42,10 @@ chmod 755 linode.php
 <pre>
 Service provider: Linode
 Hostname: [your DDNS hostname].[your domain]
-Username/Email: [your linode domain access token]
+Username/Email: [your linode account email address]
 Password/Key: [your linode domain access token]
 </pre>
 7. Click 'OK'
 
-## Reference
-* https://forum.synology.com/enu/viewtopic.php?t=70027
+## Original Reference
+* https://github.com/cpascal/syno-ddns-linode
